@@ -32,7 +32,10 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jdbc:$springBootVersion")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compile("org.springframework.boot:spring-boot-starter-actuator:$springBootVersion")
+=======
+>>>>>>> 394a1e9... Persist time entries in database
 =======
 >>>>>>> 394a1e9... Persist time entries in database
 =======
@@ -46,10 +49,13 @@ dependencies {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 springBoot {
     buildInfo()
 }
 
+=======
+>>>>>>> 394a1e9... Persist time entries in database
 =======
 >>>>>>> 394a1e9... Persist time entries in database
 =======
@@ -60,8 +66,11 @@ bootRun.environment([
         "SPRING_DATASOURCE_URL": developmentDbUrl,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
+=======
+>>>>>>> 394a1e9... Persist time entries in database
 =======
 >>>>>>> 394a1e9... Persist time entries in database
 =======
@@ -74,8 +83,11 @@ test.environment([
         "SPRING_DATASOURCE_URL": testDbUrl,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
+=======
+>>>>>>> 394a1e9... Persist time entries in database
 =======
 >>>>>>> 394a1e9... Persist time entries in database
 =======
